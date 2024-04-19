@@ -1,0 +1,89 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+#titulo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b10b3a;
+    margin-left: 11%;
+}
+#sub{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b10b3a;
+    margin-left: 15%;
+}
+.campo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b10b3a;
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 1em;
+}
+
+body{
+    background-color: #fff5ee;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+    margin-right:25%
+}
+.botao{
+    height: 36px;
+    width: 110px;
+    border-radius: 16px;
+    border: 0;
+    background-color: #fce4ee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: #b10b3a;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    margin-left: 0%;
+    cursor: pointer;
+    position: absolute;
+    top: 90%;
+    left: 47%;
+    margin-right: -50%;
+}
+.botao:hover{
+    background-color: #f5c3cb;
+    transform: scale(1.05);
+}
+.check{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b10b3a;
+    display:contents;
+}
+.grupo:before, .grupo:after {
+    display: table;
+}
+.grupo:after {
+    clear: both;
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+    border: 0;
+    color: #b10b3a;
+    background-color: #fce4ee;
+} 
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #b10b3a;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+fieldset{
+    border: 0;
+}
+#sintomas{
+    width: 30em;
+    height: 10em;
+}
+
+
+

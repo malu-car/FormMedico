@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css">
+    <title>Cadastro Médico</title>
+</head>
+<body>
+    <div>
+        <h1 id="titulo"><strong>Cadastro Médico</strong></h1>
+        <p id="sub"><strong>Complete suas informações:</strong></p><br>
+    </div>
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label><strong>Nome:</strong></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div class="campo">
+                <label><strong>Sobrenome:</strong></label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset><br>
+        <div class="campo">
+            <label><strong>Email:</strong></label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div class="campo">
+            <label><strong>Selecione o seu Gênero:</strong> </label>
+            <select id="genero">
+                <option selected disabled value="">Escolha</option>
+                <option>Feminino</option>
+                <option>Masculino</option>
+                <option>Não Binario</option> 
+            </select>
+        </div>
+        <div class="campo">
+            <label><strong>Selecione a forma de pagamento:</strong></label>
+            <label>
+                <input type="radio" name="pag" value="convenio"> Convênio
+            </label>
+            <label>
+                <input type="radio" name="pag" value="particular"> Particular
+            </label>
+        </div>
+        <fieldset class="grupo">
+            <div class="check">
+                <label><strong>Selecione as especialidades médicas:</strong></label><br><br>
+                <input type="checkbox" id="esp1" name="esp1" value="Dermatologia">
+                <label for="esp1">Dermatologia</label>
+                <input type="checkbox" id="esp2" name="esp2" value="Psiquiatria">
+                <label for="esp2">Psiquiatria</label>
+                <input type="checkbox" id="esp3" name="esp3" value="Ginicologia">
+                <label for="esp3">Ginicologia</label>
+                <input type="checkbox" id="esp4" name="esp4" value="Oftamologia">
+                <label for="esp4">Oftamologia</label>
+                <input type="checkbox" id="esp5" name="esp5" value="Cardiologia">
+                <label for="esp5">Cardiologia</label>
+                <input type="checkbox" id="esp6" name="esp6" value="Psicologia">
+                <label for="esp6">Psicologia</label>
+                <input type="checkbox" id="esp7" name="esp7" value="Urologia">
+                <label for="esp7">Urologia</label>
+                <input type="checkbox" id="esp8" name="esp8" value="Fisioterapia">
+                <label for="esp8">Fisioterapia</label>
+        </div>
+    </fieldset><br>
+    <div class="campo">
+        <label><strong>Descreva os seus sintomas de forma breve:</strong></label>
+        <textarea row="6" id="sintomas" name="sintomas"></textarea>
+    </div>
+    <div class="campo">
+        <button type="submit" class="botao">Concluido</button>
+        
+    </div>
+    </form>
+</body>
+</html>
